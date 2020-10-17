@@ -2,22 +2,25 @@
 
 <%- include('includes/navbar') %>
 
+
 <div class="speakers">
+<div class="container">
 
     <h1 class="text-center"> Speakers </h1>
 
 <div class="row text-center" style="margin-top: 2rem;"> 
     <% for(var i=0; i<speakers.length; i++) { %>
         <div class="col-md-6 col-sm-12">
-           <div class="thumbnail">
-                <img src="<%= speakers[i].img_url %>" height="250px" width="250px" />
+           <div class="img-thumbnail">
+                <img src="<%= speakers[i].img_url %>" height="450px" width="450px" />
             </div>
         <div class="desc">
-            <div class="bold"><%= speakers[i].name %> </div>
+            <div><strong><%= speakers[i].name %> </strong> </div>
             <div class="lead"> <%= speakers[i].desc %> </div>
         </div>
         </div>
     <% } %>
+</div>
 </div>
 </div>
 
