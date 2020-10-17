@@ -1,3 +1,10 @@
+
+body{
+
+  overflow-x: hidden;
+ 
+}
+
 .intro {
   background-image: url('/img/introBG.svg');
   -webkit-background-size: cover;
