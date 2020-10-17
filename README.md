@@ -5,7 +5,9 @@ To use:
 
 1. Install Node.js
 
-https://nodejs.org/en/download/ 2. Fork and Clone the repository
+https://nodejs.org/en/download/
+
+2. Fork and Clone the repository
 
 git clone repo_url
 
