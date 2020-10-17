@@ -13,4 +13,9 @@
 
 .float-right {
   float: right;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 120px; /* to be more intuitive */
+  width: 100%; /* take the parent's width */
 }
