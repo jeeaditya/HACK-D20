@@ -19,3 +19,49 @@
   height: 120px; /* to be more intuitive */
   width: 100%; /* take the parent's width */
 }
+
+.contact {
+  background-image: url('/img/LAnding page.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.align-center {
+  transform: translateY(15%);
+}
+
+.contact-form {
+  margin-top: 15px;
+}
+.contact-form .textarea {
+  min-height: 300px;
+  resize: none;
+}
+.form-control {
+  box-shadow: none;
+  border-color: #eee;
+  height: 49px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #00b09c;
+}
+.form-control-feedback {
+  line-height: 50px;
+}
+.main-btn {
+  background: #00b09c;
+  border-color: #00b09c;
+  color: #fff;
+}
+.main-btn:hover {
+  background: #00a491;
+  color: #fff;
+}
+.form-control-feedback {
+  line-height: 50px;
+  top: 0px;
+}

@@ -13,7 +13,7 @@ git clone repo_url
 
 3. Navigate to the directory
 
-./HackD-Website/
+./HACK-D20/
 
 4. Run the command in your terminal or bash to install the node modules
 
