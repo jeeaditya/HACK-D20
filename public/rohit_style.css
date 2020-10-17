@@ -1,10 +1,7 @@
 body{
     cursor: url('./glow/Glow.cur'),auto;
 }
-
-body:link{
-    cursor: url('./glow/link.ani'),auto;
-}
+ 
 ::-webkit-scrollbar {
     width: 14px;
   }
