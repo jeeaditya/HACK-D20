@@ -1,13 +1,11 @@
-#HACK D'20
+# HACK D'20
 
 Website for Hackathon by DSC-NITA
 To use:
 
 1. Install Node.js
 
-```
- https://nodejs.org/en/download/
-```
+> https://nodejs.org/en/download/
 
 2. Fork and Clone the repository
 
