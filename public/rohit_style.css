@@ -103,10 +103,9 @@ img>.d-inline-block{
 .icon-bar {
     margin-left: 3px;
     position: fixed;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 7px;
     top: 80%;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #0080b3;
     z-index: 7;
  
@@ -119,6 +118,8 @@ img>.d-inline-block{
   .icon-bar a {
 
     display: block;
+    border-radius: 40px;
+    border: 2px solid black;
     text-align: center;
     padding: 16px;
     transition: all 0.3s ease;
@@ -132,10 +133,23 @@ img>.d-inline-block{
 
  
   .buttonsoon{
+   
     border-radius: 10px;
     background-color: #000000;
     opacity: 0.75;
+    color: azure;
+    font-weight: bold;
     font-size: 1.8em;
     padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-decoration: none;
+}
+
+.buttonsoon:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+   
+
 }
