@@ -1,0 +1,25 @@
+<%- include('includes/header') %>
+
+<%- include('includes/navbar') %>
+
+<div class="speakers">
+
+    <h1 class="text-center"> Speakers </h1>
+
+<div class="row text-center" style="margin-top: 2rem;"> 
+    <% for(var i=0; i<speakers.length; i++) { %>
+        <div class="col-md-6 col-sm-12">
+           <div class="thumbnail">
+                <img src="<%= speakers[i].img_url %>" height="250px" width="250px" />
+            </div>
+        <div class="desc">
+            <div class="bold"><%= speakers[i].name %> </div>
+            <div class="lead"> <%= speakers[i].desc %> </div>
+        </div>
+        </div>
+    <% } %>
+</div>
+</div>
+
+
+<%- include('includes/footer') %>
