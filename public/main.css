@@ -1,10 +1,9 @@
-
-body{
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
   overflow-x: hidden;
   padding: 0;
   margin-top: -10px;
- 
+  font-family: 'Montserrat', sans-serif;
 }
 
 .intro {
@@ -13,17 +12,18 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: '100%';
+  min-height: 100vh;
 }
 
 .intro h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .float-right {
   float: right;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   height: 120px; /* to be more intuitive */
   width: 100%; /* take the parent's width */
@@ -44,7 +44,8 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: '100%';
+  min-height: 100vh;
 }
 
 .align-center {
@@ -82,4 +83,18 @@ body{
 .form-control-feedback {
   line-height: 50px;
   top: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .intro h1 {
+    font-size: 4rem;
+  }
+  .float-right {
+    float: none;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    height: 120px; /* to be more intuitive */
+    width: 100%; /* take the parent's width */
+  }
 }

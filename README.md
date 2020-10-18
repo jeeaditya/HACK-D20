@@ -28,7 +28,7 @@ To use:
 5. To start the application in your local server
 
 ```
- npm start
+ npm run watch
 ```
 
 6. Open your browser and navigate to:
