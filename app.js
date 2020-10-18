@@ -18,7 +18,7 @@ app.get("/", function(req,res){
     res.render("home",{speakers : speakers})
 })
 
-
-app.listen(3000, function(){
-    console.log("Starting Server at Port 3000")
+const port = process.env.PORT || 3000
+app.listen(port, function(){
+    console.log("Starting Server at Port "+port)
 })
