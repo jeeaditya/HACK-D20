@@ -38,6 +38,15 @@ body{
   height: 100vh;
 }
 
+.about {
+  background-image: url('/img/3rd last layer2.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
 .align-center {
   transform: translateY(15%);
 }
