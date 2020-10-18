@@ -121,7 +121,9 @@ img>.d-inline-block{
     border-radius: 40px;
     border: 2px solid black;
     text-align: center;
-    padding: 16px;
+    padding: 10px;
+    opacity: 1;
+    background-color: #0080b3;
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
@@ -129,6 +131,7 @@ img>.d-inline-block{
   
   .icon-bar a:hover {
     color: #000000;
+    transform: scale(1.1);
   }
 
  
@@ -153,3 +156,5 @@ img>.d-inline-block{
    
 
 }
+
+ 
