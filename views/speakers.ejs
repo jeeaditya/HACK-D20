@@ -1,4 +1,4 @@
-<div class="speakers">
+<div class="speakers" id="speakers">
 
 <div class="container p-5">
 
@@ -7,33 +7,24 @@
 <div class="row text-center" style="margin-top: 2rem;"> 
     <% for(var i=0; i<speakers.length; i++) { %>
         <div class="col-md-6 col-sm-12">
-
-            <div class="containerprofile">
+            <div class="card shadow-sm border-0 rounded m-3">
+            
+            <div class="containerprofile card-body p-0">
                 <img src="<%= speakers[i].img_url %>" alt="Avatar" height="200px" width="200px" class="image">
                 
                 <br>
-                <p class="carousel-caption" >
-                    <%= speakers[i].name %>
-                </p>
-                
                 <div class="overlay">
-
                 <a href="#" class="icon" title="LinkedIn Profile">
                   <i class="fab fa-linkedin"></i>
                 </a>
- 
                 </div>
-                
+                <p class="card-text" >
+                   <strong> <%= speakers[i].name %> </strong>
+                </p>
             </div>
-
-            <!-- <div class="desc m-2 text-center">
-                <div><strong> <%= speakers[i].name %> </strong> </div> -->
-                <!-- <div class="lead"> <%= speakers[i].desc %> </div> -->
-               <!-- </div> -->  
             <br>
-
- 
         </div>
+    </div>
         <br>
     <% } %>
 </div>
