@@ -35,11 +35,22 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: '100%';
+  min-height: 100vh;
 }
 
 .about {
   background-image: url('/img/3rd last layer2.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: '100%';
+  min-height: 100vh;
+}
+
+.faqs {
+  background-image: url('/img/2nd last layer.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
