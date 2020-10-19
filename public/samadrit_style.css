@@ -9,15 +9,13 @@
 }
 
 .containerprofile {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
+
 }
 
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .overlay {
@@ -35,7 +33,7 @@
 
 .containerprofile:hover .overlay {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 
 .icon {
