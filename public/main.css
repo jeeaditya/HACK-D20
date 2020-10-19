@@ -50,6 +50,10 @@ body {
   min-height: 100vh;
 }
 
+.logo {
+  width: 170px;
+}
+
 .faqs {
   background-image: url('/img/about us human.svg');
   -webkit-background-size: cover;
@@ -108,5 +112,10 @@ body {
     transform: translateY(-50%);
     height: 120px; /* to be more intuitive */
     width: 100%; /* take the parent's width */
+  }
+
+  .logo {
+    width: 100px;
+    margin-top: 3px;
   }
 }
