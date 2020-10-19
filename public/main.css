@@ -2,13 +2,13 @@
 body {
   overflow-x: hidden;
   padding: 0;
- 
+
   margin-top: -10px;
   font-family: 'Montserrat', sans-serif;
 }
 
 .intro {
-  background-image: url('/img/introBG.svg');
+  background-image: url('/img/landing PAge2.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,7 +41,7 @@ body {
 }
 
 .about {
-  background-image: url('/img/3rd last layer2.svg');
+  background-image: url('/img/about us.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,7 +51,7 @@ body {
 }
 
 .faqs {
-  background-image: url('/img/2nd last layer.svg');
+  background-image: url('/img/about us human.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
