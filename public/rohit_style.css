@@ -161,3 +161,28 @@ img > .d-inline-block {
     font-size: 15px;
   }
 }
+
+a.social-know-more{
+  text-decoration: none;
+}
+
+a.social-know-more:link{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-know-more{
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #0080b3;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.footer-title{
+  color: black;
+  font-weight: 500;
+}
